@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "lib": ["es5", "dom"],
+      "types": ["cypress"]
+    },
+    "include": ["**/*.ts", "cypress/integration/pages/keywords.page.js", "cypress/integration/pages/parameters.page.js", "cypress/integration/pages/grid.page.js", "cypress/integration/pages/executions.page.js", "cypress/integration/pages/admin.page.js", "cypress/integration/pages/scheduler.page.js"]
+}

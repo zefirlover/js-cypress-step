@@ -19,27 +19,21 @@ describe('step app tests', function () {
         PlansPage.getNewPlanButton();
     });
     it('Check the Keywords page', function () {
-        SignInPage.checkLogin();
         helperFunctions.checkDisplay(KeywordsPage);
     });
     it('Check the Parameters page', function () {
-        SignInPage.checkLogin();
         helperFunctions.checkDisplay(ParametersPage);
     });
     it('Check the Executions page', function () {
-        SignInPage.checkLogin();
         helperFunctions.checkDisplay(ExecutionsPage);
     });
     it('Check the Sheduler page', function () {
-        SignInPage.checkLogin();
         helperFunctions.checkDisplay(SchedulerPage);
     });
     it('Check the Grid page', function () {
-        SignInPage.checkLogin();
         helperFunctions.checkDisplay(GridPage);
     });
     it('Check the Admin page', function () {
-        SignInPage.checkLogin();
         helperFunctions.checkDisplay(AdminPage);
     });
 })
